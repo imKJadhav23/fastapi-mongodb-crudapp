@@ -1,0 +1,15 @@
+1. Install python
+https://www.python.org/downloads/
+2. Install mongodb community server
+https://www.mongodb. com/try/download/community
+3. Install Pycharm community version
+https://www.jetbrains.com/pycharm/download/#section=windows
+4. Download and install git bash
+https://git-scm. .com/downloads
+5. Create a git repository in your github account
+6. Clone the created git repo using below git bash command in your local computer in some folder
+git clone (url of the repository)
+ **Make sure to use your git repository
+7. Open the local source code folder or virtual environment in vscode ->File->Open
+7. Open terminal in vscode and install below packages by running below command
+pip install fastapi uvicorn pymongo pymongo[srv]
